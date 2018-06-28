@@ -16,5 +16,6 @@ function increaseRankBy(n) {
   debugger
   while (counter < listItem.length) {
     listItem[counter].innerHTML += n
+    counter++
   }
 }
