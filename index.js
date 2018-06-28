@@ -15,7 +15,7 @@ function increaseRankBy(n) {
   const listItem = document.querySelectorAll('ul.ranked-list li')
   debugger
   while (counter < listItem.length) {
-    Number(listItem[counter].innerHTML += n)
+    listItem[counter].innerHTML = (counter + 1 + n).toString 
     counter++
   }
 }
